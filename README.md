@@ -1,71 +1,125 @@
-# Learn Quantum Computing with Python and IBM Quantum Experience
+<h1 align="center">
+Learn Quantum Computing with Python and IBM Quantum, Second Edition</h1>
+<p align="center">This is the code repository for <a href ="https://www.packtpub.com/en-us/product/learn-quantum-computing-with-python-and-ibm-quantum-second-edition/9781803244808"> Learn Quantum Computing with Python and IBM Quantum, Second Edition</a>, published by Packt.
+</p>
 
-<a href="https://www.packtpub.com/programming/learn-quantum-computing-with-python-and-ibm-q-experience?utm_source=github&utm_medium=repository&utm_campaign=9781838981006"><img src="https://static.packt-cdn.com/products/9781838981006/cover/smaller" alt="Learn Quantum Computing with Python and IBM Quantum Experience" height="256px" align="right"></a>
+<h2 align="center">
+Write your own practical quantum programs with Python
+</h2>
+<p align="center">
+Robert Loredo</p>
 
-This is the code repository for [Learn Quantum Computing with Python and IBM Quantum Experience](https://www.packtpub.com/programming/learn-quantum-computing-with-python-and-ibm-q-experience?utm_source=github&utm_medium=repository&utm_campaign=9781838981006), published by Packt.
+<p align="center">
+   <a href="https://packt.link/3FyN1" alt="Discord" title="Learn more on the Discord server"><img width="32px" src="https://cliply.co/wp-content/uploads/2021/08/372108630_DISCORD_LOGO_400.gif"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://packt.link/free-ebook/9781803244808"><img width="32px" alt="Free PDF" title="Free PDF" src="https://cdn-icons-png.flaticon.com/512/4726/4726010.png"/></a>
+ &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://packt.link/gbp/9781803244808"><img width="32px" alt="Graphic Bundle" title="Graphic Bundle" src="https://cdn-icons-png.flaticon.com/512/2659/2659360.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+   <a href="https://www.amazon.com/Learn-Quantum-Computing-Python-IBM/dp/1803244801"><img width="32px" alt="Amazon" title="Get your copy" src="https://cdn-icons-png.flaticon.com/512/15466/15466027.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+</p>
+<details open> 
+  <summary><h2>About the book</summary>
+<a href="https://www.packtpub.com/product/unity-cookbook-fifth-edition/9781805123026">
+<img src="https://content.packt.com/B18420/cover_image_small.jpg" alt="Unity Cookbook, Fifth Edition" height="256px" align="right">
+</a>
 
-**A hands-on introduction to quantum computing and writing your own quantum programs with Python**
+The IBM Quantum Platform was built to  enable developers to learn the basics of quantum computing by providing access to high performant quantum computers and provide documentation and courses to help get up to speed with the latest features in quantum computing. 
+ 
+Updated with new examples and changes to the platform, this edition begins with an introduction to the IBM Quantum Platform and the Quantum Information Science Kit (Qiskit) SDK. You will become well versed in the IBM Quantum Composer interface as well as running your quantum circuits on a real quantum computer. Along the way, you’ll learn some of the fundamental principles regarding quantum mechanics, qubits, quantum gates, quantum circuits, and the error mitigation techniques that are used to perform operations on qubits. 
+ 
+As you build on your knowledge, you’ll understand the functionality of IBM Qiskit and the developer-focused resources so you can create your own quantum algorithms. You’ll learn how to monitor and optimize your quantum circuits. Lastly, you’ll look at the fundamental quantum algorithms and understand how they can be applied effectively. 
+ 
+By the end of this quantum computing book, you'll know how to build quantum algorithms and will have gained a practical understanding of quantum computation that you can apply to your research or business. 
+</details>
+<details open> 
+  <summary><h2>Key Learnings</summary>
+<ul>
 
-## What is this book about?
-IBM Quantum Experience is a platform that enables developers to learn the basics of quantum computing by allowing them to run experiments on a quantum computing simulator and a real device. This book will explain the basic principles of quantum mechanics, the principles involved in quantum computing, and the implementation of quantum algorithms and experiments on IBM's quantum processors. 
+<li>Get familiar with the features within the IBM Quantum Platform</li>
 
-This book covers the following exciting features:
-Explore quantum computational principles such as superposition and quantum entanglement
-Become familiar with the contents and layout of the IBM Quantum Experience
-Understand quantum gates and how they operate on qubits
-Discover the quantum information science kit and its elements such as Terra and Aer
-Get to grips with quantum algorithms such as Bell State, Deutsch-Jozsa, Grovers algorithm, and Shor's algorithm
-How to create and visualize a quantum circuit	
+<li>Create and visualize quantum gates and circuits</li>
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1838981004) today!
+<li>Operate quantum gates on qubits using the IBM Quantum Composer</li>
 
-<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
-alt="https://www.packtpub.com/" border="5" /></a>
+<li>Install and run your quantum circuits on an IBM Quantum computer</li>
 
-## Instructions and Navigations
-All of the code is organized into folders. For example, Chapter02.
+<li>Discover Qiskit and its many features such as the Qiskit Runtime</li>
 
-The code will look like the following:
-```
-param_t1 = t1*1.2
-param_a = 1.0
-param_b = 0.0
-```
+<li>Get to grips with fundamental quantum algorithms and error mitigation techniques to help you get started</li>
 
-**Following is what you need for this book:**
-This book is for Python developers who are looking to learn quantum computing and put their knowledge to use in practical situations with the help of IBM Quantum Experience. Some background in computer science and high-school-level physics and math is required.
+<li>Understand the new era of quantum utility and how this moves us closer towards quantum advantage</li>
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-14).
-### Software and Hardware List
-| Chapter | Software required | OS required |
-| -------- | ------------------------------------ | ----------------------------------- |
-| 1 | Latest browser | Windows, Mac OS X, and Linux (Any) |
+</ul>
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781838981006_ColorImages.pdf).
+  </details>
 
-## Errata
-The block of code available on page 65 is incorrect and should be as follows:
-```
-from qiskit.visualization import plot_bloch_multivector
-qc = QuantumCircuit(1)
-...
-...
-...
-#Display the Bloch sphere
-plot_bloch_multivector(stateVectorResult)
-```
-
-
-### Code in Action
-Please visit the following link to check the CiA videos:
-https://bit.ly/35o5M80
-
-### Related products
-* Dancing with Qubits [[Packt]](https://www.packtpub.com/product/dancing-with-qubits/9781838827366?utm_source=github&utm_medium=repository&utm_campaign=9781838827366) [[Amazon]](https://www.amazon.com/dp/1838827366)
-
-* Quantum Computing and Blockchain in Business [[Packt]](https://www.packtpub.com/product/quantum-computing-and-blockchain-in-business/9781838647766?utm_source=github&utm_medium=repository&utm_campaign=9781838647766) [[Amazon]](https://www.amazon.com/dp/1838647767)
-
-## Get to Know the Author
-**Robert Loredo** is the IBM Quantum Global Technical Ambassador lead with over 20 years' experience in software architecture and engineering. He is also a Qiskit Advocate and Master Inventor who holds over 160 patents and has presented various workshops, lectures, and articles covering quantum computing, artificial intelligence, and bioinformatics world-wide. As an adjunct professor, he has taught cloud computing and software engineering at the Florida International University School of Computer Science. He holds both a bachelor's and a master's degree in Computer and Electrical Engineering from the University of Miami and is currently pursuing his PhD in Computer Science, specializing in Machine Learning and Neuroscience, at Florida International University.
+<details open> 
+  <summary><h2>Chapters</summary>
 
 
+| Chapters | Colab | Kaggle | Gradient | Studio Lab |
+| :-------- | :-------- | :------- | :-------- | :-------- |
+| **Chapter 1: Exploring the IBM Quantum Tools** | | | | |
+| **Chapter 2: Creating Quantum Circuits with IBM Quantum Composer** | | | | |
+| **Chapter 3: Introducing and Installing Qiskit** | | | | |
+| **Chapter 4: Understanding Basic Quantum Computing Principles** | | | | |
+| <ul><li>Chapter 4 - Understanding Quantum Computation Basics-Final.ipynb</li></ul> | <a href="https://colab.research.google.com/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 4 - Understanding Quantum Computation Basics-Final.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a><br> | <a href="https://www.kaggle.com/kernels/welcome?src=https://github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 4 - Understanding Quantum Computation Basics-Final.ipynb"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a><br> | <a href="https://gradient.run/notebook/github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 4 - Understanding Quantum Computation Basics-Final.ipynb"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Open In Gradient"></a><br> | <a href="https://studiolab.sagemaker.aws/import/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 4 - Understanding Quantum Computation Basics-Final.ipynb"><img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In Studio Lab"></a><br> |
+| **Chapter 5: Understanding the Quantum Bit (Qubit)** | | | | |
+| <ul><li>Chapter 5 - Understanding Qubits-UPDATED.ipynb</li></ul> | <a href="https://colab.research.google.com/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 5 - Understanding Qubits-UPDATED.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a><br> | <a href="https://www.kaggle.com/kernels/welcome?src=https://github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 5 - Understanding Qubits-UPDATED.ipynb"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a><br> | <a href="https://gradient.run/notebook/github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 5 - Understanding Qubits-UPDATED.ipynb"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Open In Gradient"></a><br> | <a href="https://studiolab.sagemaker.aws/import/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 5 - Understanding Qubits-UPDATED.ipynb"><img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In Studio Lab"></a><br> |
+| **Chapter 6: Understanding Quantum Logic Gates** | | | | |
+| <ul><li>Chapter 6 - Understanding Multi-qubit gates (1).ipynb</li></ul> | <a href="https://colab.research.google.com/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 6 - Understanding Multi-qubit gates (1).ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a><br> | <a href="https://www.kaggle.com/kernels/welcome?src=https://github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 6 - Understanding Multi-qubit gates (1).ipynb"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a><br> | <a href="https://gradient.run/notebook/github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 6 - Understanding Multi-qubit gates (1).ipynb"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Open In Gradient"></a><br> | <a href="https://studiolab.sagemaker.aws/import/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 6 - Understanding Multi-qubit gates (1).ipynb"><img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In Studio Lab"></a><br> |
+| **Chapter 7: Programming with Qiskit** | | | | |
+| <ul><li>Chapter 7 - Programming with Qiskit.ipynb</li></ul> | <a href="https://colab.research.google.com/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 7 - Programming with Qiskit.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a><br> | <a href="https://www.kaggle.com/kernels/welcome?src=https://github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 7 - Programming with Qiskit.ipynb"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a><br> | <a href="https://gradient.run/notebook/github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 7 - Programming with Qiskit.ipynb"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Open In Gradient"></a><br> | <a href="https://studiolab.sagemaker.aws/import/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 7 - Programming with Qiskit.ipynb"><img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In Studio Lab"></a><br> |
+| **Chapter 8: Optimizing and Visualizing Quantum Circuits** | | | | |
+| <ul><li>Chapter 8 - Optimizing and Visualizing Circuits FinalV2.ipynb</li></ul> | <a href="https://colab.research.google.com/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 8 - Optimizing and Visualizing Circuits FinalV2.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a><br> | <a href="https://www.kaggle.com/kernels/welcome?src=https://github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 8 - Optimizing and Visualizing Circuits FinalV2.ipynb"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a><br> | <a href="https://gradient.run/notebook/github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 8 - Optimizing and Visualizing Circuits FinalV2.ipynb"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Open In Gradient"></a><br> | <a href="https://studiolab.sagemaker.aws/import/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 8 - Optimizing and Visualizing Circuits FinalV2.ipynb"><img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In Studio Lab"></a><br> |
+| **Chapter 9: Simulating Quantum Systems and Noise Models** | | | | |
+| **Chapter 10: Suppressing and Mitigating Quantum Noise** | | | | |
+| <ul><li>Chapter 10 - Updated Qiskit 1.0.ipynb</li></ul> | <a href="https://colab.research.google.com/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 10 - Updated Qiskit 1.0.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a><br> | <a href="https://www.kaggle.com/kernels/welcome?src=https://github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 10 - Updated Qiskit 1.0.ipynb"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a><br> | <a href="https://gradient.run/notebook/github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 10 - Updated Qiskit 1.0.ipynb"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Open In Gradient"></a><br> | <a href="https://studiolab.sagemaker.aws/import/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 10 - Updated Qiskit 1.0.ipynb"><img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In Studio Lab"></a><br> |
+| **Chapter 11: Understanding Quantum Algorithms** | | | | |
+| <ul><li>Chapter 11 - Quantum Algorithms-FinalV2.ipynb</li></ul> | <a href="https://colab.research.google.com/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 11 - Quantum Algorithms-FinalV2.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a><br> | <a href="https://www.kaggle.com/kernels/welcome?src=https://github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 11 - Quantum Algorithms-FinalV2.ipynb"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a><br> | <a href="https://gradient.run/notebook/github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 11 - Quantum Algorithms-FinalV2.ipynb"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Open In Gradient"></a><br> | <a href="https://studiolab.sagemaker.aws/import/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 11 - Quantum Algorithms-FinalV2.ipynb"><img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In Studio Lab"></a><br> |
+| **Chapter 12: Applying Quantum Algorithms** | | | | |
+| <ul><li>Chapter 12 - Applying Quantum Algorithms - Updated-FinalV2.ipynb</li></ul> | <a href="https://colab.research.google.com/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 12 - Applying Quantum Algorithms - Updated-FinalV2.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a><br> | <a href="https://www.kaggle.com/kernels/welcome?src=https://github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 12 - Applying Quantum Algorithms - Updated-FinalV2.ipynb"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a><br> | <a href="https://gradient.run/notebook/github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 12 - Applying Quantum Algorithms - Updated-FinalV2.ipynb"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Open In Gradient"></a><br> | <a href="https://studiolab.sagemaker.aws/import/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 12 - Applying Quantum Algorithms - Updated-FinalV2.ipynb"><img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In Studio Lab"></a><br> |
+| **Chapter 13: Understanding Quantum Utility and Qiskit Patterns** | | | | |
+| <ul><li>Chapter 13 - Applying Quantum Algorithms - Updated-FinalV2.ipynb</li></ul> | <a href="https://colab.research.google.com/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 13 - Applying Quantum Algorithms - Updated-FinalV2.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a><br> | <a href="https://www.kaggle.com/kernels/welcome?src=https://github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 13 - Applying Quantum Algorithms - Updated-FinalV2.ipynb"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a><br> | <a href="https://gradient.run/notebook/github.com/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 13 - Applying Quantum Algorithms - Updated-FinalV2.ipynb"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Open In Gradient"></a><br> | <a href="https://studiolab.sagemaker.aws/import/github/PacktPublishing/Learning-Quantum-Computing-with-Python-and-IBM-Quantum-Second-Edition/blob/main/Chapter 13 - Applying Quantum Algorithms - Updated-FinalV2.ipynb"><img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open In Studio Lab"></a><br> |
+| **Chapter 14: Appendix A: Resources** | | | | |
+| **Chapter 15: Appendix B: Assessments** | | | | |
+
+
+
+
+
+
+</details>
+
+
+<details open> 
+  <summary><h2>Requirements for this book</summary>
+
+  <ul>
+      <li class="bulletList">You will need to have internet access to access the IBM Quantum systems available to you. Since the platform is hosted on the cloud, you will not need anything more than a browser and to register a free account.</li>
+      <li class="bulletList">You will also need an up-to-date browser (Firefox, Chrome, Safari)</li>
+      <li class="bulletList">OS requirements (only if installing the software locally): Windows, Mac, and Linux.</li>
+    </ul>
+  </details>
+    
+
+
+<details> 
+  <summary><h2>Get to know Author</h2></summary>
+
+_Robert Loredo_ Robert Loredo is the IBM Quantum Ambassador Worldwide lead with over 20 years' experience in software architecture and engineering. He is a Qiskit Advocate and Master Inventor, listed as one of the world's most prolific inventors with over 200 patents. He has presented various workshops, lectures, and articles covering quantum computing, artificial intelligence, and bioinformatics worldwide. As an adjunct professor, he has taught cloud computing and software engineering at the Florida International University School of Computer Science. He holds both a bachelor's and a master's degree in Computer and Electrical Engineering from the University of Miami and is currently pursuing his PhD in Computer Science, specializing in Quantum Machine Learning and NeuroInformatics, at Florida International University. As a philanthropist, one of his favorite charities is Doctors without Borders.
+
+
+
+</details>
+<details> 
+  <summary><h2>Other Related Books</h2></summary>
+<ul>
+
+  <li><a href="https://www.packtpub.com/en-us/product/dancing-with-qubits-second-edition/9781837636754">Dancing with Qubits, Second Edition</a></li>
+ 
+</ul>
+
+</details>
